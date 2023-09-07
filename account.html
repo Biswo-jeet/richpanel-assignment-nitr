@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disconnect</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #1e4d91;
+      }
+
+      .login-container {
+        text-align: center;
+        width: 400px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #fff;
+      }
+
+      .login-container button {
+        padding: 10px 20px;
+        background-color: #1e4d91;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 10px 120px;
+        margin-bottom: 20px;
+      }
+      h2 {
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Account Settings</h2>
+      <form>
+        <button formaction="./connect.html" type="submit">
+          Create Connection
+        </button>
+        <button formaction="./delete-disconnect.html" type="submit">
+          Manage Connection
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
