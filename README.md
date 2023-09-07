@@ -1,2 +1,3 @@
 # richpanel-assignment-nitr
-Biswojeet Behera
+Biswojeet Behera, 120MN0540, Mining Engineering
+
